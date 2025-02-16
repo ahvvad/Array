@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/pages/login/login_screen.dart';
+import 'package:test_app/pages/calculator/calc_screen.dart';
+// import 'package:test_app/pages/login/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -10,10 +11,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       title: 'Array',
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(),
+      home: CalcScreen(),
     );
   }
 }

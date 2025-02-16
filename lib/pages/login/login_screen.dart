@@ -9,14 +9,17 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      resizeToAvoidBottomInset: false,
-      backgroundColor: Colors.deepOrangeAccent,
-      body: Stack(
-        children: [
-          const Header(),
-          const LoginForm(),
-        ],
+    return GestureDetector(
+      onTap: () => FocusScope.of(context).unfocus(),
+      child: const Scaffold(
+        resizeToAvoidBottomInset: false,
+        backgroundColor: Colors.deepOrangeAccent,
+        body: Stack(
+          children: [
+            Header(),
+            LoginForm(),
+          ],
+        ),
       ),
     );
   }

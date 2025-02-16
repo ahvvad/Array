@@ -23,8 +23,8 @@ class InputFields extends StatelessWidget {
             ),
           ],
         ),
-        child: Column(
-          children: const [
+        child: const Column(
+          children: [
             TextField(
               decoration: InputDecoration(
                 border: OutlineInputBorder(borderSide: BorderSide.none),
