@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test_app/pages/calculator/calc_screen.dart';
+import 'package:test_app/pages/BMI/bmi_screen.dart';
+// import 'package:test_app/pages/calculator/calc_screen.dart';
 // import 'package:test_app/pages/login/login_screen.dart';
 
 void main() {
@@ -14,7 +15,7 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       title: 'Array',
       debugShowCheckedModeBanner: false,
-      home: CalcScreen(),
+      home: BmiScreen(),
     );
   }
 }
